@@ -1,3 +1,4 @@
+ss
 from random import choice
 def generator_cisel():
     cisla_do_deviti = []
