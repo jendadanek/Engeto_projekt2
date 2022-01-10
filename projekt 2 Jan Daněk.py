@@ -9,6 +9,7 @@ def main():
         mnozina_hadani = set()
         for symbol in hadani:
             mnozina_hadani.add(symbol)
+
         kontrola_inputu(hadani, mnozina_hadani, tajenka, cows, bulls)
 
 
@@ -33,6 +34,7 @@ def pocitani(hadani, tajenka, cows, bulls):
                 cows += 1
             elif číslo == tajenka[index]:
                 bulls += 1
+    
     vypis(bulls, cows)        
 
 
@@ -51,6 +53,7 @@ def vypis(bulls, cows):
                   
     elif bulls != 1 and cows != 1:
         print("bulls:",bulls, "cows:", cows)
+
 
 def generator_cisel():
     mnozina = set()
