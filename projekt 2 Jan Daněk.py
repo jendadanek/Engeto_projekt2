@@ -1,5 +1,5 @@
 from random import choice
-
+ss
 def main():
     tajenka = str(choice(generator_cisel()))
     cows = 0
